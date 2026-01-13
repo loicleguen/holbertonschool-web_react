@@ -1,25 +1,25 @@
-interface student {
+interface Student {
     firstName: string;
     lastName: string;
     age: number;
     location: string;
 }
 
-const student1: student = {
+const student1: Student = {
     firstName: "John",
     lastName: "Doe",
     age: 20,
     location: "New York"
 };
 
-const student2: student = {
+const student2: Student = {
     firstName: "Jane",
     lastName: "Smith",
     age: 22,
     location: "Los Angeles"
 };
 
-const studentsList: student[] = [student1, student2];
+const studentsList: Student[] = [student1, student2];
 
 // Create table
 const table = document.createElement('table');
