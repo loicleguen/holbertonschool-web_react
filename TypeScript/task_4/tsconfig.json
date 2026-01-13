@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist/bundle.js",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "none",
+    "target": "es6",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM"],
+    "strict": true
+  },
+  "files": [
+    "js/subjects/Teacher.ts",
+    "js/subjects/Subject.ts",
+    "js/subjects/Cpp.ts",
+    "js/subjects/Java.ts",
+    "js/subjects/React.ts",
+    "js/main.ts"
+  ]
+}
